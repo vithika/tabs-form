@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.heading {
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tabs-heading {
+  flex: 1;
+  flex-direction: column;
+  padding: 15px;
+  border-bottom: 1px black solid;
+}
+.active {
+  color: aqua;
+  border-bottom: 1px aqua solid;
+}
+.labels {
+  margin-left: 2px;
+}
+.error {
+  color: red;
+  font-size: small;
+  display: block;
+}
